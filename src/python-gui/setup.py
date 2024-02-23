@@ -10,7 +10,7 @@ def run():
     elif runtimeOS == "Linux":
         sys("./client \"%s\"" % executable)
     else:
-        print("OS not supported")
+        print("OS is not supported")
 
 
 if __name__ == '__main__':
